@@ -2,13 +2,13 @@
 lock "~> 3.12.0"
 
 set :application, "labdus-decidim"
-set :repo_url, "git@gitlab.com:labdus/decidim-dus.git"
+set :repo_url, "git@github.com:senescytinvestigadus/InvestigaDus.git"
 
 set :deploy_to, "/home/ruby-data/app"
 
 set :rbenv_type, :user
 set :delayed_job_workers, 1
-set :rbenv_ruby, "2.5.3"
+set :rbenv_ruby, "2.5.8"
 set :sidekiq_config, "config/sidekiq.yml"
 set :init_system, :systemd
 
